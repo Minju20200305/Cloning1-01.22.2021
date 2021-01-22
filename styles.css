@@ -1,0 +1,95 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: -moz-box;
+}
+
+.leftside {
+  background-color: whitesmoke;
+  width: 30%;
+  height: 100%;
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+h1 {
+  color: red;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 500;
+  line-height: 0.8;
+}
+h3 {
+  padding-top: 30%;
+  color: red;
+  padding-bottom: 20px;
+}
+p {
+  font-size: 13px;
+  color: red;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+li {
+  color: black;
+  opacity: 0.5;
+  text-decoration: underline;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+li:hover {
+  opacity: 1;
+  font-weight: 600;
+}
+main {
+  height: 300vh;
+  background-color: red;
+  padding-left: 40%;
+}
+.movie__header {
+  color: white;
+  padding-top: 75px;
+}
+.wrap {
+  padding-left: 20%;
+}
+
+img {
+  height: 50%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 75px;
+  padding-left: 20%;
+}
+.wrap {
+  display: flex;
+  align-items: flex-end;
+}
+h4 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.movie {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1) 2%,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0)
+  );
+}
